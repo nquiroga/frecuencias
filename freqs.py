@@ -162,7 +162,7 @@ try:
     with col1:
         st.subheader("Configuración")
         palabra_usuario = st.text_input(
-            "Ingresa palabra(s) a analizar:", 
+            "Ingresa palabra(s) a analizar (1 o 2 separadas por coma; sin acentos):", 
             value="inmigrantes",
             help="Ingresa una palabra o dos palabras separadas por coma (ej: 'trabajo, empleo')"
         )
